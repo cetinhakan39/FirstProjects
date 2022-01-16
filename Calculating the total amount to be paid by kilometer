@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Please enter the price : ");
+		
+		double money = scanner.nextDouble();
+		
+		System.out.println("Please enter the km :");
+		
+		double km = scanner.nextDouble();
+		
+		double c = km*money;
+		
+		System.out.println("that's the money you spend : " + c);
+		
+	
+	
+		
+		
+	}
+	
+	
+	
+}
