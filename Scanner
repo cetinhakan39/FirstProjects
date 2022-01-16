@@ -4,20 +4,22 @@ public class Main {
 	
 	public static void main (String[] args) {
 		
-	 Scanner scanner = new Scanner(System.in);
-	 
-	 System.out.println("please enter a decimal value");
-	 
-	 double a = scanner.nextDouble();
-	 
-	 System.out.println("Your decimal value is " + a);
-	 
+	Scanner scanner = new Scanner(System.in);
+	
+	System.out.println("Please enter a value : ");
+	
+	if(scanner.hasNextInt()) {
 		
+		int a = scanner.nextInt();
+		
+		System.out.println("Your value is :  " + a);
 		
 		
 	}
 	
+	else {
+		
+		System.out.println("You didn't enter a value please enter a value..");
+	}
 	
-}
-
 
