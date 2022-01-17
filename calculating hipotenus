@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		
+	Scanner scanner = new Scanner(System.in);
+	
+	System.out.println("please enter a triangle edge : ");
+	double a = scanner.nextDouble();
+	System.out.println("please enter the second triangle edge : ");
+	double b = scanner.nextDouble();
+	
+	double hip = Math.sqrt((a*a) + (b*b));
+	
+	
+	
+	System.out.println("The hipotenus is : " + hip);
+		
+		
+	}
+	
+	
+	
+}
