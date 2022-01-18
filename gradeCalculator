@@ -1,0 +1,57 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		// First exam affects %30
+		// Second exam affects %30
+		// Final exam affects %40
+		
+		int a;
+		int b;
+		int f;
+		double ex;
+		double avr;
+		
+		System.out.println("Please enter the first exam point : ");
+		
+		a=scanner.nextInt();	
+		
+		System.out.println("Please enter the second exam point : ");
+		
+		b=scanner.nextInt();
+		
+        System.out.println("Please enter the final exam point : ");
+		
+		f=scanner.nextInt();
+		
+		ex = a*0.30 + b*0.30 + f*0.40;
+		
+        System.out.println("Please enter your avarage school point between 1-4 numbers ");
+		
+		 avr=scanner.nextDouble();
+		
+		if(avr>=3.50 && avr<=4) {
+			
+			System.out.println("Your letter grade is AA congraculations :) ");
+			
+		}
+			else if(avr>=3 && avr<3.50) {
+				
+				System.out.println("Your letter grade is BA");
+				
+			}
+		
+			else if(avr>=2.50 && avr<3) {
+				
+				System.out.println("Your letter grade is BB");
+			}
+			else {
+				
+				System.out.println("You have to study hard");
+			}
+		System.out.println("Your avarage point is : " + ex);
+		}
+	}
+	
