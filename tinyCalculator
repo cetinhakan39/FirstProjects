@@ -1,0 +1,66 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+     System.out.println("************************************");
+     String calculations =  "1-) addition\n"
+    		              + "2-)subtraction\n"
+    		              + "3-)multiplication\n"
+    		              + "4-)division\n";
+     System.out.println(calculations);
+     System.out.println("************************************");
+     
+     
+     String choose = scanner.nextLine();
+     int a;
+     int b;
+     
+     switch(choose) {
+     
+     case "1" :
+    	 System.out.println("Please enter the first value : ");
+    	 a = scanner.nextInt();
+    	 System.out.println("Please enter the second value : ");
+    	 b = scanner.nextInt();
+    	 int addition = a + b;
+    	 System.out.println("The addition is : " + addition);
+    	 
+     case "2" :
+    	 System.out.println("Please enter the first value : ");
+    	 a = scanner.nextInt();
+    	 System.out.println("Please enter the second value : ");
+    	 b = scanner.nextInt();
+    	 int subtraction = a - b;
+    	 System.out.println("The subtraction is : " + subtraction);
+    	 
+     case "3" :
+    	 System.out.println("Please enter the first value : ");
+    	 a = scanner.nextInt();
+    	 System.out.println("Please enter the second value : ");
+    	 b = scanner.nextInt();
+    	 double multiplication = a * b;
+    	 System.out.println("The multiplication is : " + multiplication);
+    	 
+    	 
+     
+     case "4" :
+    	 System.out.println("Please enter the first value : ");
+    	 a = scanner.nextInt();
+    	 System.out.println("Please enter the second value : ");
+    	 b = scanner.nextInt();
+    	 double division = ((double)a / b);
+    	 System.out.println("The division is : " + division);
+    	 
+     
+     
+     
+     
+     
+     }
+		
+	}
+	
+	
+	
+}
