@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		
+     Scanner scanner = new Scanner(System.in);
+     
+     System.out.println("Please enter the first value : ");
+     
+     int a = scanner.nextInt();
+     
+     System.out.println("Please enter the second value : ");
+     
+     int b = scanner.nextInt();
+     
+     System.out.println("Please enter the third value : ");
+     
+     int c = scanner.nextInt();
+     
+     if(a>=b && a>=c) {
+    	 
+    	 System.out.println("Max value is : " + a);
+     }
+     
+     else if(b>=a && b>=c) {
+    	 System.out.println("The max value is : " + b);
+     }
+     
+     else {
+    	 System.out.println("Max value is : " + c);
+     }
+     
+		
+	}
+	
+	
+	
+}
