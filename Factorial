@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		int factorial = 1;
+		
+		System.out.println("Please enter the value which is you want to take factorial :");
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		int a = scanner.nextInt();		
+		
+		for(int i = 1 ; a>=i ; i++) {
+			
+			factorial *= i;
+			
+		}
+		
+		System.out.println("Your factorial is : " + factorial);
+		
+		}
+		
+	}
+	
