@@ -7,7 +7,8 @@ public class Main {
       
         Scanner scanner = new Scanner(System.in);
         
-        System.out.print("Sayıyı Giriniz: ");
+       
+       System.out.print("Sayıyı Giriniz: ");
         int sayi = scanner.nextInt();
         System.out.print("Basamak Sayısı : ");
         int basamak_sayisi = scanner.nextInt();
