@@ -57,9 +57,7 @@ public class Main {
                 System.out.println("Giriş hakkınız bitti. Tekrar Bekleriz....");
                 break;
             }
-           
-           
-                      
+                                 
                     
         }
     }
