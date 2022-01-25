@@ -6,25 +6,18 @@ public class Main {
 	   
 	   System.out.println(isim + " adlı oyuncunun puanı : " + a);
    }
-   
+ 
    public static void skorHesapla(String isim) {
 	   
 	   System.out.println(isim + " adlı oyuncunun hiç puanı yok..");
    }
-   
    public static void skorHesapla(int a) {
 	   System.out.println("İsimsiz oyuncunun puanı : " + a);
-	   
-	   
    }
 	public static void main(String[] args) {
 		
 		skorHesapla("Hakan", 1000);
 		skorHesapla(1500);
 		skorHesapla("Mehmet");
-	
-
-
 		}
-
 	    }
