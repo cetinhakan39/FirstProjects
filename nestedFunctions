@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class Main {
+	
+	public static int multiplyByTwo(int a) {
+	
+		
+		return (a*2);
+		
+	}
+	
+    public static int addByTwo(int a) {
+	
+		
+		return (a+2);
+    }
+	
+    public static int multiplyByFour(int a) {
+    	
+    	
+    	return (a*4);
+    	
+    	
+    }
+    
+	public static void main(String[] args) {
+		
+		
+		System.out.println("Conclusion = " + multiplyByFour(addByTwo(multiplyByTwo(4))));
+	
+
+
+		}
+
+	    }
+	
+			
+	
+		
+
+	
+	
