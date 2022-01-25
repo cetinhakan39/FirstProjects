@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void factorial(int a) {
+		
+		int addition = 1;
+		int b = a;
+		
+		while(a>0) {
+			addition *= a;
+			a -= 1;
+}
+		
+		System.out.println("The factorial of " + b + " = " + addition);
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		factorial(5);
+
+		}
+
+	    }
+	
+			
+	
+		
+
+	
+	
