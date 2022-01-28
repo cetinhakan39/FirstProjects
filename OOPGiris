@@ -1,0 +1,37 @@
+/*
+
+public class Araba {
+
+	public String renk;
+	public int tekerlekler;
+	public int kapilar;
+	public String motor;
+	public String model;
+	
+	
+}
+
+
+*/
+
+
+
+
+
+
+public class test {
+	public static void main(String[] args) {
+		
+		Araba araba1 = new Araba();
+		
+		araba1.renk = "Kırmızı";
+		araba1.tekerlekler = 4;
+		araba1.motor = "16V";
+		araba1.kapilar = 2;
+		araba1.model = "Renault";
+		
+		
+		System.out.println(araba1.model);
+		
+	}
+}
